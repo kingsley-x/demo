@@ -1,0 +1,201 @@
+.flashsale {
+    display: flex;
+    height: 260px;
+    margin-top: 10px;
+}
+
+.flash-hd {
+    width: 190px;
+    height: 260px;
+    background: url('../img/flash.png') no-repeat;
+    text-align: center;
+}
+
+.flash-hd h2 {
+    margin-top: 30px;
+    padding-left: 15px;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 15px;
+}
+
+.countdown {
+    margin-top: 65px;
+}
+
+.countdown-text {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.countdown-desc {
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.time-unit {
+    float: left;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    margin-right: 20px;
+    background-color: #2f3430;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.time-unit::after {
+    content: ':';
+    position: absolute;
+    top: -2px;
+    right: -13px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.time-second {
+    margin-right: 0;
+}
+
+.time-second::after {
+    content: '';
+}
+
+.flash-bd {
+    flex: 1;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.flash-bd .flash-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+}
+
+.flash-bd .flash-list .flash-item {
+    display: inline-block;
+    width: 245px;
+    margin-right: 5px;
+    height: 235px;
+    position: relative;
+    text-align: center;
+}
+
+.flash-bd .flash-list .flash-item::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 220px;
+    background: linear-gradient(rgba(200, 200, 200, 0) 0%, rgba(200, 200, 200, 1) 50%, rgba(200, 200, 200, 0) 100%)
+}
+
+.flash-bd .flash-list .flash-item img {
+    margin-top: 15px;
+}
+
+.flash-bd .flash-list .flash-item p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 12px;
+}
+
+.flash-item .price {
+    display: flex;
+    width: 198px;
+    height: 30px;
+    border: 2px solid #e1251b;
+    margin: 0 auto;
+}
+
+.flash-item .price .price-miaosha {
+    position: relative;
+    flex: 6;
+    height: 26px;
+    line-height: 26px;
+    vertical-align: bottom;
+    text-align: center;
+    background-color: #e1251b;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.flash-item .price .price-miaosha::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    border-color: transparent transparent #fff transparent;
+    border-style: solid;
+    border-width: 0 0 26px 10px;
+}
+
+.flash-item .price .price-origin {
+    flex: 4;
+    line-height: 26px;
+    text-align: center;
+    color: #999;
+    text-decoration: line-through;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.scroll-bar {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -480px;
+    height: 3px;
+    width: 960px;
+    background-color: #ccc;
+    border-radius: 2px;
+    z-index: 2;
+    opacity: 0;
+    transform: opacity .3;
+    visibility: hidden;
+}
+
+.flash-bd:hover .scroll-bar {
+    opacity: 1;
+    visibility: visible;
+}
+
+.flash-bd .scroll-bar-show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.scroll-bar .scroll-pionts {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 80px;
+    height: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    cursor: pointer;
+}

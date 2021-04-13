@@ -1,0 +1,43 @@
+[{
+        "img": "1.1.jpg",
+        "goods_name": "三星Galaxy Note20 Ultra 5G(SM-N9860)S Pen&三星笔记 120Hz自适应屏幕 5G手机 游戏手机 12GB+512GB 迷雾金",
+        "oldPrice": "9999",
+        "newPrice": "9888"
+    },
+    {
+        "img": "1.2.jpg",
+        "goods_name": "OPPO Reno5 Pro 5G手机 65W闪充opporeno5pro 全网通8G+128G 星河入梦 礼包套装",
+        "oldPrice": "3699",
+        "newPrice": "3299"
+    }, {
+        "img": "1.3.jpg",
+        "goods_name": "海尔（Haier）16升零冷水燃气热水器天然气密闭稳燃仓家用增压三管大水量即开即热JSQ31-16WJS2(12T)",
+        "oldPrice": "2499",
+        "newPrice": "2222"
+    }, {
+        "img": "1.4.jpg",
+        "goods_name": "罗西尼（ROSSINI）手表男勋章系列时尚自动机械表防水男表送礼钢带男士手表718793 蓝盘钢带男表718793W05B",
+        "oldPrice": "2399",
+        "newPrice": "2099"
+    }, {
+        "img": "1.5.jpg",
+        "goods_name": "乐高(LEGO)积木 机械组42115 兰博基尼FKP 37 跑车18岁+生日礼物 儿童玩具 跑车汽车模型 粉丝收藏",
+        "oldPrice": "2599",
+        "newPrice": "2399"
+    }, {
+        "img": "1.6.jpg",
+        "goods_name": "吉列（Gillette）剃须刀刮胡刀手动 发热石SPA级剃须先锋 5层超薄刀片 LABS热感（1刀架6刀头+1充电底座）",
+        "oldPrice": "1399",
+        "newPrice": "1188"
+    }, {
+        "img": "1.7.jpg",
+        "goods_name": "小米电视4A 60英寸 L60M5-4A 4K超高清 HDR 内置小爱 2GB+8GB 教育电视 人工智能语音网络液晶平板电视",
+        "oldPrice": "3099",
+        "newPrice": "2899"
+    }, {
+        "img": "1.8.jpg",
+        "goods_name": "联想ThinkPad X1 Carbon 2020(7FCD)英特尔酷睿i5 14英寸轻薄笔记本电脑(十代i5 16G 512G)4G版 沉浸黑",
+        "oldPrice": "9999",
+        "newPrice": "8999"
+    }
+]
